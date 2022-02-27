@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+  
+  <head>
+    <meta charset="UTF-8">
+    <title>ベクターデータをいじり倒したい気持ち</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  </head>
+  
+  <body>
+    <div id="path-container"></div>
+    <script src="./js/path_control/path_control.min.js"></script>
+    <script>
+      PathMain.init(null,()=>PathMain.load("./resource/path_data.bin", 0, null));
+    </script>
+    
+    <div style="pointer-events:none; position:absolute; bottom:4px; font-size:4px; color:rgba(0,0,0,.1)">
+    To GOTOren02_BTS - thank you! - @BUN_information
+    </div>
+  </body>
+
+</html>
